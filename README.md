@@ -1,6 +1,13 @@
 # Hotel-Booking-Analysis-EDA
-The Hotel Booking Analysis project aimed to perform an Exploratory Data Analysis (EDA) on a dataset containing hotel booking information. This project is related to Hotel Booking having two hotel description i.e; City Hotel and Resort Hotel. In this dataset contains total rows 119390 and 32 columns.
-In this we divide data manipulation workflow in 3 category: 1. Data Collection, 2. Data Cleaning and Manipulation and, 3. EDA (Exploratory Data Analysis)
-As Further moved i.e; Data Collections first step to find different columns which is done by coding Head(), tail(). info(), describe(), columns() and some others method used for Data Collections, some of the columns name is updated here i.e; hotel, is_canceled, lead_time, arrival_date_year, arrival_date_month, arrival_date_week_number, arrival_date_day_of_month, stays_in_weekend_nights.
-As we further moved we find unique value of each columns and generate a list in tabular form and also check the dataset type of each columns' find some columns not in accurate data types which correct it later done in Data cleaning part and as well as duplicates data items must be removed as we find duplicates items equal to 87396 which is dropped from dataset later.
-Before visualize any data from the data set we have to do Data Wrangling. For that, we are checked the null value of all the columns. After checking, when we are getting a column which has more number of null values, dropped that column by using the drop method. In this way, we are dropped the "company" column. When we are find minimal number of null values, filling thse null values with necesary values as per requirement by using .fillna() Different charts are used for data visualization so that better insights and Business objective is attained.
+The Hotel Booking Analysis project aimed to perform Exploratory Data Analysis (EDA) on a dataset with Hotel Booking Information, comprising two hotel descriptions: City Hotel and Resort Hotel.
+The dataset contains 119,390 rows and 32 columns.
+
+The data manipulation workflow is divided into three categories:
+1. Data Collection,
+2. Data Cleaning and Manipulation,
+3. EDA (Exploratory Data Analysis).
+
+Initially, data was collected using methods like Head(), tail(), info(), describe(), and columns().
+Unique values of each column were tabulated, and incorrect data types were corrected during Data Cleaning. Duplicate data items (87396) were removed.
+Next, Data Wrangling was done by checking for 'null values' and dropping columns with many nulls, such as the "company" column. For columns with minimal nulls, the null values were filled with necessary data using .fillna().
+Data visualization was accomplished using different charts to gain better insights and achieve Business objectives.
